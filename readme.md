@@ -14,6 +14,23 @@ Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutları tek tek giriniz.
 </p>
 
+# 1.0 JS Kenshi Kurulumdan Keyleri Almak ve Kenshiyi krulumunu kaldımrmak.
+    cd $home
+    nano conf.yaml
+Eğer .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekecek. Öncelikle  WinSCP ya da "nano" komutu aracılığıyla eski Kenshi'ye ait "secretKey ve publicKey" keylerini almanız gerekecek. Daha önce aldıysanız yapmanıza gerek yok.
+![image](https://github.com/awelmisin/KenshiGO/assets/73443933/97ccd66e-e373-4e8e-a97f-5ed5669aec97)
+
+Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C yapıp, "screen -ls" kullanıp, çıkan 123123.kenshi screenini "screen -X -S 123123.kenshi kill" yaparak kapatın.
+
+Kurulumu kaldıralım
+
+	sudo npm uninstall -g prisma
+	sudo npm uninstall -g @kenshi.io/unchained
+	sudo npm uninstall -g npm
+	sudo rm -rf /usr/local/bin/node /usr/local/bin/npm /usr/local/bin/npx
+
+
+
 # KURULUM
 Öncelikle docker'ı yüklememiz lazım.
 # 1.1 Sunucu Güncellemesi ve Docker Kurulumu
