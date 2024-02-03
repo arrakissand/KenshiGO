@@ -22,7 +22,7 @@ Eğer .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekece
 
 Keyleri yedekledikten sonra eski .js ile çalışan Kenshi'yi kapatın. CTRL+C yapıp, "screen -ls" kullanıp, çıkan 123123.kenshi screenini "screen -X -S 123123.kenshi kill" yaparak kapatın.
 
-Kurulumu kaldıralım
+Kurulumu kaldıralımak için komultarı tek tek girin.
 
 	sudo npm uninstall -g prisma
 	sudo npm uninstall -g @kenshi.io/unchained
