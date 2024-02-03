@@ -14,7 +14,7 @@ Lütfen bir hatayla karşılaşmamak için önce repo'ya bir göz atınız!
 Adım adım gittiğiniz taktirde sıkıntısız bir kurulum olacaktır. Komutları tek tek giriniz.
 </p>
 
-# 1.0 JS Kenshi Kurulumdan Keyleri Almak ve Kenshiyi krulumunu kaldımrmak.
+# 1.0 JS Kenshi Kurulumdan Keyleri Almak ve Kurulumu Kaldırmak.
     cd $home
     nano conf.yaml
 Eğer .js üzerinde Kenshi kurduysanız o zaman bazı şeyler yapmanız gerekecek. Öncelikle  WinSCP ya da "nano" komutu aracılığıyla eski Kenshi'ye ait "secretKey ve publicKey" keylerini almanız gerekecek. Daha önce aldıysanız yapmanıza gerek yok.
